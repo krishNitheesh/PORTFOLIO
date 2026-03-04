@@ -1,12 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-  const [activeLink, setActiveLink] = useState('home');
-
-  const handleClick = (linkName) => {
-    setActiveLink(linkName);
-  };
 
   const navLinks = [
     { name: 'Home', path: '/', key: 'home' },
@@ -32,7 +27,6 @@ const Navbar = () => {
               className={({ isActive }) =>
                 `nav-link ${isActive ? 'active' : ''}`
               }
-              onClick={() => handleClick(link.key)}
             >
               {link.name}
             </NavLink>

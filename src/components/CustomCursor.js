@@ -7,9 +7,6 @@ const CustomCursor = () => {
     const [isPointer, setIsPointer] = useState(false);
 
     useEffect(() => {
-        const dot = dotRef.current;
-        const outline = outlineRef.current;
-        const glow = glowRef.current;
 
         const handleMouseMove = (e) => {
             const { clientX: x, clientY: y } = e;
