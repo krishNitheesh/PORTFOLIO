@@ -1,0 +1,323 @@
+/* src/styles/responsive.css */
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+    .hero {
+      gap: 60px;
+      padding: 20px 40px 30px;
+    }
+    
+    .hero-text h1 {
+      font-size: 3.2rem;
+    }
+    
+    .hero-text h2 {
+      font-size: 1.7rem;
+    }
+    
+    .hero-text p {
+      font-size: 1.1rem;
+    }
+    
+    .profile-container {
+      height: 450px;
+      max-width: 450px;
+    }
+    
+    .profile-img {
+      width: 280px;
+      height: 280px;
+    }
+    
+    .floating-icons {
+      width: 400px;
+      height: 400px;
+    }
+    
+    .icon {
+      width: 55px;
+      height: 55px;
+    }
+    
+    .connect-title {
+      font-size: 2rem;
+      letter-spacing: 10px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px 30px 30px;
+      gap: 50px;
+      max-height: calc(100vh - 100px);
+    }
+    
+    .hero-text {
+      max-width: 100%;
+      padding-top: 10px;
+      transform: translateY(-20px);
+      animation: fadeInUp 1s ease-out 0.3s forwards;
+    }
+    
+    .profile-container {
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease-out 0.3s forwards;
+    }
+    
+    .hero-text h1 {
+      font-size: 2.8rem;
+      transform: translateY(-10px);
+      animation: fadeInUp 0.8s ease-out 0.5s forwards;
+    }
+    
+    .hero-text h2 {
+      font-size: 1.5rem;
+      transform: translateY(-10px);
+      animation: fadeInUp 0.8s ease-out 0.7s forwards;
+    }
+    
+    .hero-text p {
+      font-size: 1.05rem;
+      transform: translateY(-10px);
+    }
+    
+    .nav-content {
+      padding: 0 30px;
+    }
+    
+    .nav-links {
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .nav-link {
+      padding: 6px 15px;
+      font-size: 0.9rem;
+    }
+    
+    .profile-container {
+      height: 380px;
+      max-width: 380px;
+    }
+    
+    .profile-img {
+      width: 250px;
+      height: 250px;
+    }
+    
+    .floating-icons {
+      width: 340px;
+      height: 340px;
+    }
+    
+    .icon {
+      width: 50px;
+      height: 50px;
+      top: calc(50% + (160px * sin(var(--angle))));
+      left: calc(50% + (160px * cos(var(--angle))));
+    }
+    
+    .footer {
+      padding: 15px 30px;
+    }
+    
+    .connect-title {
+      font-size: 1.8rem;
+      letter-spacing: 8px;
+    }
+    
+    .social-icons {
+      gap: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      height: 70px;
+    }
+    
+    .nav-wave {
+      clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    }
+    
+    .nav-content {
+      height: 70px;
+      padding: 0 20px;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+    }
+    
+    .logo {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    
+    .nav-links {
+      gap: 8px;
+      width: 100%;
+      justify-content: center;
+    }
+    
+    .nav-link {
+      padding: 5px 12px;
+      font-size: 0.85rem;
+    }
+    
+    .hero {
+      padding: 15px 20px 25px;
+      gap: 40px;
+    }
+    
+    .hero-text h1 {
+      font-size: 2.4rem;
+    }
+    
+    .hero-text h2 {
+      font-size: 1.3rem;
+    }
+    
+    .hero-text p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    
+    .profile-container {
+      height: 320px;
+      max-width: 320px;
+    }
+    
+    .profile-img {
+      width: 220px;
+      height: 220px;
+    }
+    
+    .floating-icons {
+      width: 290px;
+      height: 290px;
+    }
+    
+    .icon {
+      width: 45px;
+      height: 45px;
+      top: calc(50% + (140px * sin(var(--angle))));
+      left: calc(50% + (140px * cos(var(--angle))));
+    }
+    
+    .social-icons {
+      gap: 15px;
+    }
+    
+    .social-icon {
+      width: 40px;
+      height: 40px;
+    }
+    
+    .connect-title {
+      font-size: 1.6rem;
+      letter-spacing: 6px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav-links {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+    
+    .nav-link {
+      padding: 4px 8px;
+      font-size: 0.75rem;
+      text-align: center;
+    }
+    
+    .hero {
+      padding: 10px 15px 20px;
+      gap: 30px;
+    }
+    
+    .hero-text h1 {
+      font-size: 2rem;
+    }
+    
+    .hero-text h2 {
+      font-size: 1.1rem;
+    }
+    
+    .hero-text p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    
+    .profile-container {
+      height: 280px;
+      max-width: 280px;
+    }
+    
+    .profile-img {
+      width: 180px;
+      height: 180px;
+    }
+    
+    .floating-icons {
+      width: 240px;
+      height: 240px;
+    }
+    
+    .icon {
+      width: 40px;
+      height: 40px;
+      top: calc(50% + (120px * sin(var(--angle))));
+      left: calc(50% + (120px * cos(var(--angle))));
+    }
+    
+    .footer {
+      padding: 10px 15px 20px;
+    }
+    
+    .connect-title {
+      font-size: 1.4rem;
+      letter-spacing: 4px;
+    }
+    
+    .social-icons {
+      gap: 12px;
+    }
+    
+    .social-icon {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .nav-links {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .hero-text h1 {
+      font-size: 1.8rem;
+    }
+    
+    .hero-text h2 {
+      font-size: 1rem;
+    }
+    
+    .connect-title {
+      font-size: 1.2rem;
+      letter-spacing: 3px;
+    }
+    
+    .social-icons {
+      gap: 10px;
+    }
+    
+    .social-icon {
+      width: 32px;
+      height: 32px;
+    }
+  }
