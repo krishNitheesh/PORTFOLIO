@@ -13,7 +13,7 @@ const Hero = () => {
           <span className="greeting">Hi, I'm</span>
           <h1 className="name">KRISH N KUMARESH</h1>
         </div>
-        <h2 className="title">Computer Science Student</h2>
+        <h2 className="title">Founder/CEO of Knite Infotech & Computer Science Student</h2>
         <p className="description">
           Passionate about software development, problem solving, and building
           clean, user-focused applications. Interested in space technologies,

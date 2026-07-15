@@ -39,6 +39,12 @@ const Certificates = () => {
             provider: "Karpagam Institute of Tech",
             image: "/Images/cert/varam karpagam.jpg",
             info: "📚Grateful to have participated in CODE TWINS at VARNAM’26, a National Level Sports, Techno & Cultural Fest organized by Karpagam Institute of Technology."
+        },
+        {
+            title: "Networking Basics",
+            provider: "Cisco Networking Academy",
+            image: "/Images/cert/network basics.jpg",
+            info: "Successfully completed the Networking Basics course offered by Networking Academy through the Cisco Networking Academy program."
         }
     ];
 
